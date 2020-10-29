@@ -31,6 +31,7 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	testImplementation 'io.projectreactor:reactor-test'
+	compile group: 'org.springframework.security', name: 'spring-security-core', version: '5.4.0'
 }
 
 test {
